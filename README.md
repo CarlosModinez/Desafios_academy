@@ -1,3 +1,13 @@
+## Dependencias
+ [Instale o dotnet core](https://dotnet.microsoft.com/download), e entao adicione as dependências:
+ 
+`dotnet add package Microsoft.EntityFrameworkCore`
+
+`dotnet add package Microsoft.EntityFrameworkCore.Sqlite`
+
+`dotnet add package Microsoft.EntityFrameworkCore.Tools`
+
+
 ## Desafios para aprendizagem de backend
 
 ### Desafio 1 - Rotas [DONE]
