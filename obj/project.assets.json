@@ -8593,7 +8593,7 @@
       "outputPath": "/Users/carlosmodinez/Desktop/Desafios_academy/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/carlosmodinez/.nuget/NuGet/NuGet.Config"
+        "/Users/carlosmodinez/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"

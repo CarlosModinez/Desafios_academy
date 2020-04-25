@@ -16,7 +16,7 @@ namespace Desafios_academy.Controllers
             //Ajusta a string date
             date = date.Insert(2, "/");
             date = date.Insert(5, "/");
-
+            
             DateTime today = DateTime.Today;
             TimeSpan days = DateTime.ParseExact(date, "dd/MM/yyyy", null) - today;
             string daysS = Convert.ToString(days);

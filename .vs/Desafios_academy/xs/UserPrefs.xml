@@ -1,16 +1,20 @@
 ﻿<Properties GitUserInfo="UsingMD" StartupConfiguration="{B9B7AA4E-26A3-42A0-8DE2-8641FB5FEF1D}|Default">
   <MonoDevelop.Ide.ItemProperties.Desafios__academy PreferredExecutionTarget="/Applications/Safari.app" />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Controllers/ReflectionController.cs">
+    <Files>
+      <File FileName="Controllers/ReflectionController.cs" Line="65" Column="10" />
+      <File FileName="Model/Reflection.cs" />
+      <File FileName="Controllers/DiferencaController.cs" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Desafios_academy" expanded="True">
             <Node name="Desafios_academy" expanded="True">
-              <Node name="Dependencies" expanded="True" />
-              <Node name="Controllers" expanded="True" />
-              <Node name="Model" expanded="True">
-                <Node name="Reflection.cs" selected="True" />
+              <Node name="Controllers" expanded="True">
+                <Node name="ReflectionController.cs" selected="True" />
               </Node>
+              <Node name="Model" expanded="True" />
             </Node>
           </Node>
         </State>
@@ -21,7 +25,7 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -1,4 +1,7 @@
 ﻿using System;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+
 namespace Desafios_academy.Model
 {
     public class Reflection
@@ -14,5 +17,6 @@ namespace Desafios_academy.Model
         public string Id { get; set; }
         public string Text { get; set; }
         public DateTime CreationTime { get; set; }
+       
     }
 }
