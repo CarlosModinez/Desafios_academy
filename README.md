@@ -7,6 +7,8 @@
 
 `dotnet add package Microsoft.EntityFrameworkCore.Tools`
 
+Caso for testar com o [Postman](https://www.postman.com), desabilite o SSL certicate varification em `settings` > `General`
+
 
 ## Desafios para aprendizagem de backend
 
