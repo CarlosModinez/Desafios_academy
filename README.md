@@ -1,4 +1,4 @@
-## Dependencias
+## Dependências
  [Instale o dotnet core](https://dotnet.microsoft.com/download), e entao adicione as dependências:
  
 `dotnet add package Microsoft.EntityFrameworkCore`
@@ -44,7 +44,7 @@ Ex:
 }
 POST - cria um novo recurso DELETE - remove um recurso PATCH/PUT - modifica um recurso
 
-### Desafío 4 - Buscas
+### Desafio 4 - Buscas [DONE]
 Faça rotas onde possamos buscar reflections passando entre datas.
 Caso a date venha vazia ou não especificada deve retornar um código de erro.
 Exemplos:
@@ -60,7 +60,7 @@ String username; String password; String name;
 }
 Crie buscar para poder encontrar um usuário pelo nome e pelo username dele.
 
-### Desafío 6 - Users Reflections
+### Desafio 6 - Users Reflections
 Agora realize/modifique a model para os reflections dos usuários. Sugestão de classe.
 Class UserReflection{
 String(Int) id;
@@ -77,6 +77,6 @@ Crie também rotas para buscar todas as reflection que estão sendo compartilhad
 ### Desafio 7 - Publicação
 Publique o seu servidor em um serviço cloud (Heroku, AWS, GoogleCloud, Azure, BlueMix...)
 
-### Desafíos Extras
+### Desafios Extras
 Coloque um serviço de autenticação Auth2.0 (Google/Facebook) Faça um frontend para o seu servidor (HTML/Mobile)
 Crie opções de reflections por áudio e imagens.
