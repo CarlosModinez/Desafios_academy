@@ -52,7 +52,7 @@ Entrada: /reflection?from=10042020&to=13042020
 Entrada: /reflection?from=10042020
 Deve retornar todas as reflections entre 10/04/2020 até agora.
 
-### Desafio 5 - Users e Autenticação
+### Desafio 5 - Users e Autenticação [DONE]
 Coloque autenticação e possibilidade de criação/remoção de users (eles devem ser guardados no banco de dados tb).
 Sugestão de classe.
 Class User{
