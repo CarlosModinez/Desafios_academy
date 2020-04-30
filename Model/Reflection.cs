@@ -13,9 +13,11 @@ namespace Desafios_academy.Model
             Guid guid = Guid.NewGuid();
             this.Id = guid.ToString();
         }
-
         public string Id { get; set; }
+
+        [Required(ErrorMessage = "Text is required")]
         public string Text { get; set; }
+
         public DateTime CreationTime { get; set; }
        
     }

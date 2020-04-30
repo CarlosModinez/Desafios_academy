@@ -1,10 +1,28 @@
 ﻿<Properties GitUserInfo="UsingMD" StartupConfiguration="{B9B7AA4E-26A3-42A0-8DE2-8641FB5FEF1D}|Default">
   <MonoDevelop.Ide.ItemProperties.Desafios__academy PreferredExecutionTarget="/Applications/Safari.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Controllers/ReflectionController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Controllers/UserController.cs">
     <Files>
-      <File FileName="Controllers/ReflectionController.cs" Line="65" Column="10" />
+      <File FileName="Controllers/DiferencaController.cs" Line="1" Column="1" />
+      <File FileName="Controllers/ReflectionController.cs" />
+      <File FileName="Pages/LoginView.cshtml" />
+      <File FileName="Controllers/UserController.cs" Line="37" Column="14" />
+      <File FileName="Model/ErrorViewModel.cs" />
       <File FileName="Model/Reflection.cs" />
-      <File FileName="Controllers/DiferencaController.cs" />
+      <File FileName="Controllers/Cryptography.cs" />
+      <File FileName="Startup.cs" />
+      <File FileName="Views/User/Privacy.cshtml" />
+      <File FileName="Model/ReflectionContext.cs" />
+      <File FileName="appsettings.json" />
+      <File FileName="Views/User/Index.cshtml" />
+      <File FileName="ReflectionContext.db" />
+      <File FileName="Program.cs" />
+      <File FileName="README.md" />
+      <File FileName="Properties/launchSettings.json" />
+      <File FileName="Model/User.cs" />
+      <File FileName="Controllers/BouncyCastleHashing.cs" />
+      <File FileName="Migrations/20200423161550_AddReflectionToDb.cs" />
+      <File FileName="Migrations/SqliteMigrations/20200427143850_UsersToDB.cs" />
+      <File FileName="Migrations/SqliteMigrations/ReflectionContextModelSnapshot.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -12,15 +30,16 @@
           <Node name="Desafios_academy" expanded="True">
             <Node name="Desafios_academy" expanded="True">
               <Node name="Controllers" expanded="True">
-                <Node name="ReflectionController.cs" selected="True" />
+                <Node name="UserController.cs" selected="True" />
+              </Node>
+              <Node name="Migrations" expanded="True">
+                <Node name="SqliteMigrations" expanded="True" />
               </Node>
               <Node name="Model" expanded="True" />
+              <Node name="Properties" expanded="True" />
             </Node>
           </Node>
         </State>
-      </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>

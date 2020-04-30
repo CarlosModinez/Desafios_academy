@@ -24,9 +24,10 @@ namespace Desafios_academy
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
-
+            services.AddControllersWithViews();
             services.AddDbContext<ReflectionContext>(options =>
                     options.UseSqlite(Configuration.GetConnectionString("ReflectionContext")));
+
             
         }
 
@@ -37,6 +38,7 @@ namespace Desafios_academy
             {
                 app.UseDeveloperExceptionPage();
             }
+            
 
             app.UseHttpsRedirection();
 
@@ -47,6 +49,7 @@ namespace Desafios_academy
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
+       
             });
         }
     }

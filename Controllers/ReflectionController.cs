@@ -28,7 +28,6 @@ namespace Desafios_academy.Controllers
     }
 
 
-
     [ApiController]
     [Route("[controller]")]
     public class ReflectionController : ControllerBase

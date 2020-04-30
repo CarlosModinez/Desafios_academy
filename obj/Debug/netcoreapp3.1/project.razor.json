@@ -20521,8 +20521,23 @@
   "RootNamespace": "Desafios_academy",
   "Documents": [
     {
+      "FilePath": "/Users/carlosmodinez/Desktop/Desafios_academy/Views/User/Index.cshtml",
+      "TargetPath": "Views\\User\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/carlosmodinez/Desktop/Desafios_academy/Pages/LoginView.cshtml",
+      "TargetPath": "Pages\\LoginView.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/carlosmodinez/Desktop/Desafios_academy/Pages/_ValidationScriptsPartial.cshtml",
       "TargetPath": "Pages\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/carlosmodinez/Desktop/Desafios_academy/Views/User/Privacy.cshtml",
+      "TargetPath": "Views\\User\\Privacy.cshtml",
       "FileKind": "mvc"
     }
   ],
